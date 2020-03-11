@@ -1,0 +1,4 @@
+test\automation\api\ApiTest.class
+test\automation\utility\ParseJsonResponse.class
+test\automation\utility\PropertyFileReader.class
+test\automation\api\RequestApi.class

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Carbon credits: matched]]>
+    </line>
+    <line>
+      <![CDATA[CanRelist = true working fine as expected]]>
+    </line>
+    <line>
+      <![CDATA[The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9792" started-at="2020-03-12T02:41:56 IST" finished-at="2020-03-12T02:42:06 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="9792" started-at="2020-03-12T02:41:56 IST" finished-at="2020-03-12T02:42:06 IST">
+      <class name="test.automation.api.ApiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.automation.api.ApiTest@f4468b]" name="setUp" is-config="true" duration-ms="9676" started-at="2020-03-12T02:41:56 IST" finished-at="2020-03-12T02:42:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test_01_verifyName()[pri:0, instance:test.automation.api.ApiTest@f4468b]" name="Test_01_verifyName" duration-ms="10" started-at="2020-03-12T02:42:06 IST" finished-at="2020-03-12T02:42:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Carbon credits: matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_01_verifyName -->
+        <test-method status="PASS" signature="Test_02_verifyIsCanRelist()[pri:0, instance:test.automation.api.ApiTest@f4468b]" name="Test_02_verifyIsCanRelist" duration-ms="0" started-at="2020-03-12T02:42:06 IST" finished-at="2020-03-12T02:42:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[CanRelist = true working fine as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_02_verifyIsCanRelist -->
+        <test-method status="PASS" signature="Test_03_verifyElementTextInPromotionsDescriptionT()[pri:0, instance:test.automation.api.ApiTest@f4468b]" name="Test_03_verifyElementTextInPromotionsDescriptionT" duration-ms="1" started-at="2020-03-12T02:42:06 IST" finished-at="2020-03-12T02:42:06 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_03_verifyElementTextInPromotionsDescriptionT -->
+        <test-method status="PASS" signature="closeAPIConnection()[pri:0, instance:test.automation.api.ApiTest@f4468b]" name="closeAPIConnection" is-config="true" duration-ms="1" started-at="2020-03-12T02:42:06 IST" finished-at="2020-03-12T02:42:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAPIConnection -->
+      </class> <!-- test.automation.api.ApiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
