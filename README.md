@@ -16,7 +16,7 @@ In order to clone/copy the code use blow command
 #### Prerequisites
 
 	. JDK 1.8 or above 
-	. Maven 3.1
+	. Mavivkeven 3.1
 	. TestNg 6.7 or above
 	. Eclipse or IDE of choice in case there is need to update the script. (optional)
 
@@ -26,15 +26,12 @@ Please refer below steps to run the test suite:
 
 1. Clone the code  
 
-2. Go to the project and open command prompt on same location and  run the below command :
 
-	. mvn clean test -Dtest=ApiTest
+vivke singh chauhan
 
 
-###### Run the test using TestNg
-	1. Clone the code
-	2. Import as a Mave project in  Eclipse or Any IDE
-	3. Explore package test.automation.api
+
+
 	4. Right click on ApiTest.java class and run as a Testng  
 
 
